@@ -1,0 +1,41 @@
+{
+  "cells_properties": {
+    "deployEndpoint": "",
+    "i18nPath": "locales/",
+    "componentsPath": "./components/",
+    "composerEndpoint": "./composerMocks/",
+    "pages": [],
+    "pagesPath": "./elements/",
+    "appId": "",
+    "debug": true,
+    "mocks": true,
+    "coreCache": true,
+    "routerLog": false,
+    "cordovaScript": "cordova.js",
+    "prplLevel": 1,
+    "initialBundle": [
+      "dashboard.json"
+    ],
+    "transpile": true,
+    "transpileExclude": [
+      "cells-rxjs",
+      "moment",
+      "d3",
+      "bgadp*"
+    ],
+    "enableLitElement": true,
+    "onlyLitElements": true,
+    "locales": {
+      "languages": [
+        "es-ES",
+        "en-US",
+        "es"
+      ],
+      "intlInputFileNames": [
+        "locales"
+      ],
+      "intlFileName": "locales"
+    }
+  },
+  "app_properties": {}
+}

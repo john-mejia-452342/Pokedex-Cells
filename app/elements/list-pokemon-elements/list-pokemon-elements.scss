@@ -1,0 +1,12 @@
+.container {
+  margin: 0 32px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  place-items: center;
+}
+
+@media screen and (min-width: 37.5rem) {
+  bbva-web-card-product {
+    max-width: 80%;
+  }
+}
